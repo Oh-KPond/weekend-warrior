@@ -29,6 +29,7 @@ describe "Leap Year Test" do
 
   it "Check century which is not a leap year" do
     expect(leap_year?(1900)).wont_equal true
+    expect(leap_year?(1800)).wont_equal true
   end
 
   it "Check fourth_century" do
